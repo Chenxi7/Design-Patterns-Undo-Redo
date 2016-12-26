@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CAF83061E01324F0051C052 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF83051E01324F0051C052 /* main.cpp */; };
+		4CAF833A1E014DFA0051C052 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CAF83391E014DFA0051C052 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4CAF83021E01324F0051C052 /* undo-redo-four */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "undo-redo-four"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CAF83051E01324F0051C052 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4CAF83021E01324F0051C052 /* undo-redo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "undo-redo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAF83391E014DFA0051C052 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		4CAF833B1E014E5F0051C052 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,7 @@
 		4CAF82F91E01324F0051C052 = {
 			isa = PBXGroup;
 			children = (
-				4CAF83041E01324F0051C052 /* undo-redo-four */,
+				4CAF83041E01324F0051C052 /* undo-redo */,
 				4CAF83031E01324F0051C052 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +50,27 @@
 		4CAF83031E01324F0051C052 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CAF83021E01324F0051C052 /* undo-redo-four */,
+				4CAF83021E01324F0051C052 /* undo-redo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4CAF83041E01324F0051C052 /* undo-redo-four */ = {
+		4CAF83041E01324F0051C052 /* undo-redo */ = {
 			isa = PBXGroup;
 			children = (
-				4CAF83051E01324F0051C052 /* main.cpp */,
+				4CAF83391E014DFA0051C052 /* main.cpp */,
+				4CAF833B1E014E5F0051C052 /* Command.h */,
 			);
+			name = "undo-redo";
 			path = "undo-redo-four";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CAF83011E01324F0051C052 /* undo-redo-four */ = {
+		4CAF83011E01324F0051C052 /* undo-redo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CAF83091E01324F0051C052 /* Build configuration list for PBXNativeTarget "undo-redo-four" */;
+			buildConfigurationList = 4CAF83091E01324F0051C052 /* Build configuration list for PBXNativeTarget "undo-redo" */;
 			buildPhases = (
 				4CAF82FE1E01324F0051C052 /* Sources */,
 				4CAF82FF1E01324F0051C052 /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = "undo-redo-four";
+			name = "undo-redo";
 			productName = "undo-redo-four";
-			productReference = 4CAF83021E01324F0051C052 /* undo-redo-four */;
+			productReference = 4CAF83021E01324F0051C052 /* undo-redo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CAF82FD1E01324F0051C052 /* Build configuration list for PBXProject "undo-redo-four" */;
+			buildConfigurationList = 4CAF82FD1E01324F0051C052 /* Build configuration list for PBXProject "undo-redo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CAF83011E01324F0051C052 /* undo-redo-four */,
+				4CAF83011E01324F0051C052 /* undo-redo */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CAF83061E01324F0051C052 /* main.cpp in Sources */,
+				4CAF833A1E014DFA0051C052 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +233,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CAF82FD1E01324F0051C052 /* Build configuration list for PBXProject "undo-redo-four" */ = {
+		4CAF82FD1E01324F0051C052 /* Build configuration list for PBXProject "undo-redo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CAF83071E01324F0051C052 /* Debug */,
@@ -239,13 +242,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CAF83091E01324F0051C052 /* Build configuration list for PBXNativeTarget "undo-redo-four" */ = {
+		4CAF83091E01324F0051C052 /* Build configuration list for PBXNativeTarget "undo-redo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CAF830A1E01324F0051C052 /* Debug */,
 				4CAF830B1E01324F0051C052 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

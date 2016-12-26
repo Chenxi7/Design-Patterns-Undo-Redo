@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4CAF83011E01324F0051C052"
-               BuildableName = "undo-redo-four"
-               BlueprintName = "undo-redo-four"
-               ReferencedContainer = "container:undo-redo-four.xcodeproj">
+               BuildableName = "undo-redo"
+               BlueprintName = "undo-redo"
+               ReferencedContainer = "container:undo-redo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4CAF83011E01324F0051C052"
-            BuildableName = "undo-redo-four"
-            BlueprintName = "undo-redo-four"
-            ReferencedContainer = "container:undo-redo-four.xcodeproj">
+            BuildableName = "undo-redo"
+            BlueprintName = "undo-redo"
+            ReferencedContainer = "container:undo-redo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4CAF83011E01324F0051C052"
-            BuildableName = "undo-redo-four"
-            BlueprintName = "undo-redo-four"
-            ReferencedContainer = "container:undo-redo-four.xcodeproj">
+            BuildableName = "undo-redo"
+            BlueprintName = "undo-redo"
+            ReferencedContainer = "container:undo-redo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4CAF83011E01324F0051C052"
-            BuildableName = "undo-redo-four"
-            BlueprintName = "undo-redo-four"
-            ReferencedContainer = "container:undo-redo-four.xcodeproj">
+            BuildableName = "undo-redo"
+            BlueprintName = "undo-redo"
+            ReferencedContainer = "container:undo-redo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
